@@ -2,11 +2,11 @@ import React from "react";
 import "./Home.css";
 import "boxicons/css/boxicons.min.css";
 
-const Home = () => {  
+const Home = () => {
   return (
-    <>
-      <div className="home-container"> 
-        <div className="left-section"> 
+    <div className='Hero-page'>
+      <div className="home-container">
+        <div className="left-section">
           <p className="vertical-font">Instinct — Released May 22, 2020</p>
           <div className="image-container">
             <img
@@ -23,22 +23,18 @@ const Home = () => {
             <h2>CONRO</h2>
             <div className="right-sec-btn">
               <button>
-                {" "}
                 <i class="bx bx-play" style={{ fontSize: "30px" }}></i> Listen
                 Now
               </button>
               <button>
-                {" "}
-                <i className="bx bx-share-alt" style={{ fontSize: "25px" }}>
-                  {" "}
-                </i>
+                <i className="bx bx-share-alt" style={{ fontSize: "25px" }}></i>
                 Share
               </button>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

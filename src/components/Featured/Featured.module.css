@@ -1,0 +1,14 @@
+.cardContainer {
+  position: relative;
+  /* margin: 10px; */
+  width: 350px;
+  height: 450px;
+  margin-bottom: 50px;
+}
+.cardTitle {
+  color: white;
+  word-spacing: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
