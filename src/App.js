@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import Brands from './components/Brands/Brands';
 import Featured from './components/Featured/Featured';
+import Navbar from './components/Nav/Navbar';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         alt="Logo"
         className="fixed-logo"
       />
+      <Navbar />
+      
       <Home />
       <Brands />
       <Featured />

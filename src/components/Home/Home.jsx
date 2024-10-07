@@ -3,8 +3,8 @@ import "./Home.css";
 import "boxicons/css/boxicons.min.css";
 
 const Home = () => {
-  return (
-    <div className='Hero-page'>
+  return ( 
+    <div className="Hero-page">
       <div className="home-container">
         <div className="left-section">
           <p className="vertical-font">Instinct — Released May 22, 2020</p>

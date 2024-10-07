@@ -9,10 +9,9 @@
   margin: 50px 0 50px 0;
   align-items: center;
   justify-content: center;
-  display: flex; /* Adjust the layout as needed */
-  flex-wrap: wrap; /* Allows cards to wrap into the next line */
-  gap: 26px; /* Space between cards */
-  /* flex-direction: column; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
 }
 
 .card-container {
@@ -20,7 +19,6 @@
   width: 350px;
   height: 200px;
   overflow: hidden;
-  /* border-radius: 8px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
