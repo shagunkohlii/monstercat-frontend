@@ -1,52 +1,55 @@
 .navbar {
-    position: fixed;
-    top: 40px;
-    right: 50px;
-    padding: 10px;
-    border-radius: 8px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-  
-  .navbar-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    font-size: 2rem;
-    background-color: black;
-    color: white;
-    width: 25vw;
-    height: 100vh;
-    padding: 8px 30px 8px 20px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    opacity: 0;
-    transform: translateX(100%);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  }
-  
-  .navbar-menu.visible {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  
-  .logo {
-    width: 200px;
-    height: 100px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-  }
-  
-  .nav-links-socials {
-    width: 25px;
-    height: 25px;
-  }
-  
+  position: fixed;
+  top: 40px;
+  right: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  width: 25vw;
+  height: 100vh;
+  padding: 8px 30px 8px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.navbar-menu.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.nav-links-socials {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-links-text{
+    text-transform:uppercase;
+}

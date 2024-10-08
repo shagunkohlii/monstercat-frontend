@@ -44,23 +44,22 @@ const Navbar = () => {
             />
           </div>
           <div className="nav-links">
-            <div>Music</div>
-            <div>Artist</div>
-            <div>About</div>
-            <div>News</div>
-            <div>Events</div>
-            <div>Programming</div>
-            <div>Gold</div>
-            <div>Partners</div>
-            <div>Press</div>
-            <div>Player</div>
+            <div className="nav-links-text">Music</div>
+            <div className="nav-links-text">Artist</div>
+            <div className="nav-links-text">About</div>
+            <div className="nav-links-text">News</div>
+            <div className="nav-links-text">Events</div>
+            <div className="nav-links-text">Programming</div>
+            <div className="nav-links-text">Gold</div>
+            <div className="nav-links-text">Partners</div>
+            <div className="nav-links-text">Press</div>
+            <div className="nav-links-text">Player</div>
           </div>
           <div style={{ marginTop: "20px" }}>
             <div
               style={{
                 display: "flex",
                 gap: "10px",
-
                 alignItems: "center",
               }}
             >

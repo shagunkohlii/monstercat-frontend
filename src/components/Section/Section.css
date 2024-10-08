@@ -1,0 +1,60 @@
+
+.section {
+    margin: 80px auto;
+    max-width: 1200px; 
+    padding: 0 20px; 
+  }
+  
+  /* Style for the heading */
+  .brands-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Layout for the card list */
+  .card-list {
+    margin: 50px 0; /* Top and bottom margin */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    justify-content: center; /* Centers the cards within the section */
+  }
+  
+  /* Each card container */
+  .section-card-container {
+    position: relative;
+    width: 535px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  /* Image inside each card */
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Card title styling */
+  .card-title {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Responsive behavior for smaller screens */
+  @media (max-width: 768px) {
+    .card-container {
+      width: 100%; /* Cards take up full width on smaller screens */
+    }
+  }
+  
