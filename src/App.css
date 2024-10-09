@@ -40,10 +40,10 @@ body {
 }
 
  /* For large devices  */
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   .fixed-logo {
     width: 60px;
     top: 40px;
     left: 100px;
   }
-}
+} 

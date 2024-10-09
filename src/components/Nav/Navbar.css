@@ -9,6 +9,10 @@
   flex-direction: column;
   gap: 50px;
 }
+.nav-hamburger {
+  height: auto;
+  width: 30px;
+}
 
 .navbar-menu {
   display: flex;
@@ -50,6 +54,38 @@
   height: 25px;
 }
 
-.nav-links-text{
-    text-transform:uppercase;
+.nav-links-text {
+  text-transform: uppercase;
 }
+
+@media (max-width: 576px) {
+  .navbar {
+    width: 30px;
+    top: 10px;
+    right: 20px;
+    
+  }
+  .hide-icons {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar {
+    width: 40px;
+    top: 30px;
+    right: 50px;
+  }
+  .hide-icons {
+    display: none;
+  }
+}
+
+/* For large devices  */
+/* @media (min-width: 992px) {
+  .navbar {
+    width: 60px;
+    top: 40px;
+    right: 100px;
+  }
+}  */

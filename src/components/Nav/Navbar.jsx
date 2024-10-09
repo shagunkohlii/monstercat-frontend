@@ -13,11 +13,11 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <img
-          style={{ height: "30px", width: "30px" }}
+          className="nav-hamburger"
           src="https://img.icons8.com/?size=100&id=59832&format=png&color=ffffff"
           onClick={toggleMenu}
           alt=""
-        />
+        /> 
         <Icons />
       </div>
 
