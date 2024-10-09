@@ -26,6 +26,7 @@
   position: relative; 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
@@ -34,24 +35,32 @@
 
 .left-section {
   display: flex;
+  align-items: center;
+  width: 45%;
+  margin-right: 20px;
 }
 
 .right-section {
-  width: 500px;
-  height: 500px;
+  width: 45%;
+  text-align: center;
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
+}
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1rem;
-  justify-content: center;
+.right-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.right-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
 }
 
 .right-sec-btn {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -60,33 +69,137 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 1rem;
   color: white;
   padding: 10px;
   background-color: #6ab296;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .image-container {
-
   display: flex;
   align-items: flex-end;
   max-width: 500px;
 }
 
 .cover-img {
-
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
 .vertical-font {
-
   writing-mode: vertical-rl;
   white-space: nowrap;
   transform: rotate(180deg);
   margin-right: 10px;
 }
 
+/* RESPONSIVE DESIGN */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 576px) {
+  .home-container {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .right-section h1 {
+    font-size: 2rem;
+  }
+
+  .right-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .cover-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .right-sec-btn {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .vertical-font {
+    font-size: 0.8rem;
+    margin-right: 0;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .home-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .right-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .right-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .cover-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .right-sec-btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .home-container {
+    width: 85%;
+  }
+
+  .left-section, .right-section {
+    width: 48%;
+  }
+
+  .right-section h1 {
+    font-size: 2.3rem;
+  }
+
+  .right-section h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* Large devices (992px and up) */
+@media (min-width: 992px) {
+  .home-container {
+    width: 70%;
+  }
+
+  .left-section, .right-section {
+    width: 45%;
+  }
+
+  .right-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .right-section h2 {
+    font-size: 1.8rem;
+  }
+}
