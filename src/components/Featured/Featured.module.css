@@ -11,3 +11,8 @@
   font-weight: bold;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
+.section {
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}

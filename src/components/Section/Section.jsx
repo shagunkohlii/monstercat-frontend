@@ -39,6 +39,7 @@ const brandDetail = [
       "https://images.pexels.com/photos/12129379/pexels-photo-12129379.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
+
 const Card = ({ title, imageUrl }) => {
   return (
     <div className="section-card-container">

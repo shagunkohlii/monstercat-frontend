@@ -32,14 +32,16 @@ const Card = ({ title, imageUrl }) => {
 
 const Brands = () => {
   return (
-    <div className="flex-heading">
+    <div className="section">
       <div className="flex-heading">
-        <h1 className="brands-heading">Our Brands</h1>
-      </div>
-      <div className="card-list">
-        {brandDetail.map((card) => (
-          <Card key={card.id} title={card.title} imageUrl={card.imageUrl} />
-        ))}
+        <div className="flex-heading">
+          <h1 className="brands-heading">Our Brands</h1>
+        </div>
+        <div className="card-list">
+          {brandDetail.map((card) => (
+            <Card key={card.id} title={card.title} imageUrl={card.imageUrl} />
+          ))}
+        </div>
       </div>
     </div>
   );
